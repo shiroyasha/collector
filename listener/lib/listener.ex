@@ -11,6 +11,7 @@ defmodule Listener do
       supervisor(Listener.Endpoint, []),
       # Start the Ecto repository
       supervisor(Listener.Repo, []),
+      supervisor(Listener.Server, []),
       # Here you could define other workers and supervisors as children
       # worker(Listener.Worker, [arg1, arg2, arg3]),
     ]
