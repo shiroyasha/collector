@@ -1,0 +1,6 @@
+files:
+  - /test.out
+destination:
+  host: localhost
+  port: 30000
+  protocol: tcp
